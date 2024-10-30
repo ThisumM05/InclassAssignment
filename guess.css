@@ -1,0 +1,46 @@
+*{
+margin: 0;
+padding: 10px;
+}
+
+.box{
+padding: 40px;
+border: 5px;
+border-style: solid;
+background-color: azure;
+display: grid;
+text-align: center;
+border-radius: 22px;
+border-color: steelblue;
+box-shadow: 10px 10px 15px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#num2{
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 19px;
+}
+.btn{
+    padding: 10px;
+    width: 20%;
+    margin-top: 22px;
+    background-color: cornsilk;
+    border-radius: 20px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#result{
+    color: orangered;
+}
